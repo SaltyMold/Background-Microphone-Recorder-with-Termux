@@ -16,4 +16,17 @@ _This script uses **Termux, Termux:API, and Termux:Widget** to create a backgrou
 
 First you need to install [Termux](https://f-droid.org/fr/packages/com.termux/), [Termux:API](https://f-droid.org/fr/packages/com.termux.api/) and [Termux:Widget](https://f-droid.org/fr/packages/com.termux.widget/) from F-Droid.
 
-Open Termux and
+Open Termux:API and Termux:Widget to active them.
+
+Open Termux and execute :
+
+```Bash
+mkdir ~/.shortcuts && mkdir ~/.shortcuts/tasks && mkdir ~/.shortcuts/icons
+
+git clone https://github.com/SaltyMold/Background-Microphone-Recorder-with-Termux.git
+
+
+
+```
+
+
