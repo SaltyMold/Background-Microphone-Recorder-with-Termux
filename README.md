@@ -32,10 +32,9 @@ wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-
 
 chmod +x Microphone
 
-cd ~/.shortcuts/tasks
+cd ~/.shortcuts/icons
 
 wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-with-Termux/main/Microphone.png
-
 ```
 
-
+Now go on your desktop and add this widget
