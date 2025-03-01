@@ -15,3 +15,5 @@ _This script uses **Termux, Termux:API, and Termux:Widget** to create a backgrou
 ## Install the script
 
 First you need to install [Termux](https://f-droid.org/fr/packages/com.termux/), [Termux:API](https://f-droid.org/fr/packages/com.termux.api/) and [Termux:Widget](https://f-droid.org/fr/packages/com.termux.widget/) from F-Droid.
+
+Open Termux and
