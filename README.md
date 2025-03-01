@@ -21,11 +21,18 @@ Open Termux:API and Termux:Widget to active them.
 Open Termux and execute :
 
 ```Bash
+pkg install termux-api
+pkg install wget
+
 mkdir ~/.shortcuts && mkdir ~/.shortcuts/tasks && mkdir ~/.shortcuts/icons
 
-git clone https://github.com/SaltyMold/Background-Microphone-Recorder-with-Termux.git
+cd ~/.shortcuts/tasks
 
+wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-with-Termux/main/Microphone
 
+chmod +x Microphone
+
+wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-with-Termux/main/Microphone.png
 
 ```
 
