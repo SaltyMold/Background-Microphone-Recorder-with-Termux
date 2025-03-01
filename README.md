@@ -11,3 +11,7 @@
 </p>
 
 _This script uses **Termux, Termux:API, and Termux:Widget** to create a background microphone recorder. It helps capture **evidence of harassment or violence**, record lectures, or take voice notes discreetly._
+
+## Install the script
+
+First you need to install Termux, Termux:API and Termux:Widget from F-Droid.
