@@ -32,6 +32,8 @@ wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-
 
 chmod +x Microphone
 
+cd ~/.shortcuts/tasks
+
 wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-with-Termux/main/Microphone.png
 
 ```
