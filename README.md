@@ -41,4 +41,6 @@ Now go on your desktop and add the Termux shortcut 1×1 widget :
 
 <img src="https://github.com/user-attachments/assets/c63bbd9f-7693-4b48-bf42-eec677977020" alt="Widget" width="400">
 
-Then select /tasks and select Microphone
+Then select /tasks and select Microphone.
+
+You should have this :
