@@ -37,4 +37,7 @@ cd ~/.shortcuts/icons
 wget https://raw.githubusercontent.com/SaltyMold/Background-Microphone-Recorder-with-Termux/main/Microphone.png
 ```
 
-Now go on your desktop and add this widget
+Now go on your desktop and add the Termux shortcut 1×1 widget :
+
+![Screenshot_2025-03-01-21-26-43-467_com mi android globallauncher-edit](https://github.com/user-attachments/assets/c63bbd9f-7693-4b48-bf42-eec677977020)
+
