@@ -1,24 +1,29 @@
 #!/bin/bash
 
-# Define the storage directory where recorded audio files will be saved
+#Define the storage directory
+
 OUTPUT_DIR="/storage/emulated/0/Termux/TermuxAudio"
 
-# Create the directory if it does not exist
+#Create the directory if it does not exist
+
 mkdir -p /storage/emulated/0/Termux
 mkdir -p "$OUTPUT_DIR"
 
-# Define the output file name with a timestamp to avoid overwriting files
+#Define the output file name
+
 FILENAME="$(date '+%Y-%m-%d_%H-%M-%S').aac"
 OUTPUT_FILE="$OUTPUT_DIR/$FILENAME"
 
-# Send a persistent notification to indicate recording is in progress
-termux-notification --id 57 \  # Unique notification ID
-  --ongoing \  # Prevents the notification from being swiped away
-  --title "Recording in progress" \  # Notification title
-  --content "Click to stop recording" \  # Notification message
-  --action "termux-microphone-record -q && termux-notification-remove 57" \  # Stops recording and removes the notification when clicked
-  --on-delete "bash ~/.shortcuts/tasks/Microphone"  # Recreates the notification if deleted manually
+#Send a notification
 
-# Start recording audio using Termux API with specified encoding and bitrate
+termux-notification --id 57 \
+  --ongoing \
+  --title "Recording in progress" \
+  --content "Click to stop recording" \
+  --action "termux-microphone-record -q && termux-notification-remove 57" \
+  --on-delete "bash ~/.shortcuts/tasks/Microphone"
+
+#Start recording
+
 echo "Recording in progress..."
 termux-microphone-record -f "$OUTPUT_FILE" -e aac -r 44100 -b 128 -c 2 -d
